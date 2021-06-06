@@ -4,7 +4,7 @@ import { Button, Container, Menu } from 'semantic-ui-react'
 export default function Navi() {
     return (
         <div>
-            <Menu inverted fixed size='mini'>
+            <Menu inverted fixed="top" size='mini'>
                 <Container>
                     <Menu.Item
                         name='home'
